@@ -597,9 +597,9 @@ const compileMultiAgentsGraph = async (params: MultiAgentsGraphParams) => {
                     messages: [...prependMessages, new HumanMessage({ content: finalQuestion })]
                 },
                 {
-                    recursionLimit: supervisorResult?.recursionLimit ?? 100,
+                    recursionLimit: 500,
                     callbacks: [loggerHandler, ...callbacks],
-                    configurable: config
+                    configurable: config.configurable,
                 }
             )
         } catch (e) {
@@ -1040,6 +1040,7 @@ const compileSeqAgentsGraph = async (params: SeqAgentsGraphParams) => {
             }
         }
         return await graph.stream(humanMsg, {
+            recursionLimit: 500,
             callbacks: [loggerHandler, ...callbacks],
             configurable: config
         })

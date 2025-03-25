@@ -438,6 +438,14 @@
                 {
                     "label": "gemini-1.5-pro",
                     "name": "gemini-1.5-pro"
+                },
+                {
+                    "label": "gemini-1.5-pro",
+                    "name": "gemini-1.5-pro"
+                },
+                {
+                    "label": "rylorntest3-pqkb1x022g5v",
+                    "name": "rylorntest3-pqkb1x022g5v"
                 }
             ]
         },
@@ -470,12 +478,8 @@
                     "name": "gemini-1.5-pro-001"
                 },
                 {
-                    "label": "gemini-1.0-pro",
-                    "name": "gemini-1.0-pro"
-                },
-                {
-                    "label": "gemini-1.0-pro-vision",
-                    "name": "gemini-1.0-pro-vision"
+                    "label": "rylorntest3-pqkb1x022g5v",
+                    "name": "rylorntest3-pqkb1x022g5v"
                 },
                 {
                     "label": "claude-3-7-sonnet@20250219",
@@ -506,6 +510,11 @@
                     "label": "claude-3-haiku@20240307",
                     "name": "claude-3-haiku@20240307",
                     "description": "Fastest and most compact model for near-instant responsiveness"
+                },
+                {
+                    "label": "rylorntest3-pqkb1x022g5v",
+                    "name": "rylorntest3-pqkb1x022g5v",
+                    "description": "Rylorn model"
                 }
             ]
         },
@@ -1169,6 +1178,10 @@
                 {
                     "label": "code-gecko-32k",
                     "name": "code-gecko-32k"
+                },
+                {
+                    "label": "rylorntest3-pqkb1x022g5v",
+                    "name": "rylorntest3-pqkb1x022g5v"
                 }
             ]
         },
